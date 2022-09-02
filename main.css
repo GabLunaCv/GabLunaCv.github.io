@@ -3,17 +3,24 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+*:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
 body{
     margin: 0;
     padding: 0;
-    background-color: #08030A;
+    background-color: #0D0D0D;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to bottom right,#0B0326 ,#260259);
+    background-image: linear-gradient(to bottom right,#0D0D0D ,#0A0140);
     color: white;
 }
 
@@ -21,9 +28,10 @@ body{
     width: 90px;
     height: 90px;
     object-fit: cover;
-    border: 3px solid #D504D9;
+    border: 3px solid #4F22F2;
     border-radius: 50%;
     margin: 1.6rem;
+    margin-right: .4rem;
     vertical-align: middle;
     display: inline-block;
 }
@@ -56,7 +64,7 @@ body{
 }
 
 .navbar-links li a:hover {
-    color: #D504D9;
+    color: #4F22F2;
 }
 
 .hamburguer-menu{
