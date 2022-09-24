@@ -21,9 +21,8 @@ a {
 }
 
 img {
-  display: flex;
-  width: 850px; 
-  height: 300px; 
+  width: 100%; 
+  max-height: 50%;
   object-fit: cover;
   object-position: 25% 25%; 
 }
@@ -33,9 +32,11 @@ img {
 }
 
 header {
+  text-align: center;
+  font-size: 20px;
   background: #0D0D0D;
   color: white;
-  padding: 9px;
+  padding: 20px;
   margin-bottom: 30px;
 }
 
@@ -51,7 +52,7 @@ header a{
 
 .btn {
   display: inline-block;
-  background: #2A1A40;
+  background: #1B0140;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -69,13 +70,13 @@ header a{
 
 .btn:hover {
   transform: scale(0.98);
-  background: #AD6AD9;
+  background: #5D04D9;
 }
 
 .btn-back {
   background: #f4f4f4;
   color: #000;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .posts {
@@ -86,22 +87,22 @@ header a{
 }
 
 .card {
-  padding: 15px;
-  border: 4px solid #AD6AD9;
+  padding: 20px;
+  border: 4px solid #5D04D9;
   transition: all 0.12s ease-in-out;
   transform: scale(0.98);
   border-radius: 10px;
 }
 
-.card:hover{
-  transform: scale(1.0)
-}
-
 .card-page {
+  border: 0px solid;
+  margin: auto;
   padding: 15px 30px;
+  max-width: 1080px;
 }
 
 .post-title {
+  color: #2A1A40;
   margin: 10px 0;
 }
 
@@ -111,8 +112,7 @@ header a{
   padding: 3px 10px;
 }
 
-.post-body ul,
-ol {
+.post-body ul, ol {
   font-size: 110%;
   line-height: 2.3;
   font-weight: bold;
@@ -126,7 +126,7 @@ ol {
   line-height: 2.3;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 740px) {
   .posts {
     grid-template-columns: 1fr;
   }

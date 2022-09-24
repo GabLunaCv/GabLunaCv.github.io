@@ -11,6 +11,7 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>GabLunaDev - Blog</title>
+        <link rel="icon" href="/images/icon.jpg"></link>
       </Head>
 
       <div className='posts'>
