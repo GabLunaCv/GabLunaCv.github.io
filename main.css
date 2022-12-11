@@ -24,7 +24,7 @@ body{
     color: white;
 }
 
-.my-photo{
+/* .my-photo{
     width: 90px;
     height: 90px;
     object-fit: cover;
@@ -34,11 +34,12 @@ body{
     margin-right: .4rem;
     vertical-align: middle;
     display: inline-block;
-}
+} */
 
 .my-name{
     font-size: 1.8rem;
     font-weight: 700;
+    margin: 1.8rem;
     vertical-align: middle;
     display: inline-block;
 }
