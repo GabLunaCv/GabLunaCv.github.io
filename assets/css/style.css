@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 img {
@@ -54,7 +55,7 @@ header ul li {
 }
 header ul li a {
   text-decoration: none;
-  color: #141414;
+  color: #F0F0F0;
 }
 
 .hero-section {
@@ -86,6 +87,7 @@ header ul li a {
   font-weight: bold;
   line-height: 80px;
   max-width: 15ch;
+  color: #F0F0F0;
   position: relative;
 }
 .hero-section h1::before {
@@ -99,7 +101,7 @@ header ul li a {
 }
 .hero-section p {
   font-weight: 400;
-  color: #525252;
+  color: #7A7A7A;
   font-size: 1.5rem;
   line-height: 6px;
   margin-top: 28px;
@@ -119,12 +121,13 @@ header ul li a {
   width: 4ch;
   word-wrap: break-word;
   text-transform: uppercase;
-  color: #E0E0E0;
+  color: #141414;
 }
 .xp-section .text-apresentation {
   padding-top: 15px;
   font-size: 1.5rem;
   line-height: 2rem;
+  color: #E0E0E0;
   width: 43ch;
 }
 .xp-section .text-apresentation span {
@@ -137,6 +140,7 @@ header ul li a {
   color: #00FF75;
 }
 .xp-section .cards p {
+  color: #E0E0E0;
   margin-bottom: 4px;
 }
 .xp-section .cards .card {
@@ -147,7 +151,7 @@ header ul li a {
   width: 690px;
   height: 160px;
   border-radius: 5px;
-  background-color: #F0F0F0;
+  background-color: #292929;
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 186px;
@@ -175,7 +179,7 @@ header ul li a {
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 1;
-  color: #141414;
+  color: #F0F0F0;
   margin: 0;
   margin-bottom: 12px;
 }
@@ -187,7 +191,7 @@ header ul li a {
   margin-bottom: 4px;
 }
 .xp-section .cards .card .about-project p span {
-  color: #141414;
+  color: #F0F0F0;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -202,7 +206,7 @@ header ul li a {
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 1;
-  color: #141414;
+  color: #F0F0F0;
   margin: 0;
   margin-bottom: 12px;
 }
