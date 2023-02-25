@@ -74,7 +74,7 @@ header ul li a {
   height: 400px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 5px -7px #00FF75, -5px 7px #00FF75;
+  box-shadow: 5px -7px #4647fa, -5px 7px #4647fa;
 }
 
 .hero-section .mobile {
@@ -94,7 +94,7 @@ header ul li a {
   content: "";
   height: 150px;
   width: 4px;
-  background-color: #00FF75;
+  background-color: #4647fa;
   position: absolute;
   left: -12px;
   top: 10px;
@@ -134,10 +134,10 @@ header ul li a {
   font-weight: bold;
 }
 .xp-section .cards {
-  margin-top: 40px;
+  margin-top: 34px;
 }
 .xp-section .cards a {
-  color: #00FF75;
+  color: #4647fa;
 }
 .xp-section .cards p {
   color: #E0E0E0;
@@ -149,7 +149,7 @@ header ul li a {
   padding-left: 12px;
   padding-right: 12px;
   width: 690px;
-  height: 160px;
+  height: 225px;
   border-radius: 5px;
   background-color: #292929;
   margin-bottom: 20px;
@@ -170,7 +170,7 @@ header ul li a {
   content: "";
   width: 4px;
   height: 20px;
-  background-color: #00FF75;
+  background-color: #4647fa;
   position: absolute;
   left: -3px;
   top: 25px;
@@ -196,7 +196,7 @@ header ul li a {
   font-size: 1rem;
 }
 .xp-section .cards .card .about-project p a {
-  color: #00FF75;
+  color: #4647fa;
 }
 .xp-section .cards .card .about-project span {
   font-size: 0.75rem;
@@ -263,7 +263,7 @@ header ul li a {
   position: absolute;
   width: 4px;
   height: 18px;
-  background-color: #00FF75;
+  background-color: #4647fa;
   left: -4px;
   top: 64px;
 }
@@ -371,7 +371,7 @@ footer .container .text-contact::before {
   width: 4px;
   height: 98px;
   position: absolute;
-  background-color: #00FF75;
+  background-color: #4647fa;
   left: -24px;
 }
 footer .container .social {
@@ -381,7 +381,7 @@ footer .container .social li {
   margin-bottom: 12px;
 }
 footer .container .social li a {
-  color: #00FF75;
+  color: #4647fa;
 }
 footer .container .social li p {
   color: #F5F5F5;
@@ -410,7 +410,7 @@ footer .container .pesornal-contacts p {
   }
   .xp-section .cards .card {
     display: flex;
-    height: 180px;
+    height: 260px;
     justify-content: flex-start;
     width: auto;
     padding-right: 8px;
@@ -570,7 +570,7 @@ footer .container .pesornal-contacts p {
   }
   header ul li {
     padding: 12px 24px;
-    background-color: #F0F0F0;
+    background-color: #2b2b2b;
     border-radius: 5px;
   }
   .hero-section {
